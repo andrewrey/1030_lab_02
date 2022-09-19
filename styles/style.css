@@ -189,6 +189,7 @@ header {
 .sites__list {
   background-color: white;
   padding: 15px 0;
+  min-width: 330px;
 }
 
 .web_sites__list {
