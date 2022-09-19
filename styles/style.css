@@ -30,6 +30,19 @@ header {
 }
 
 @media (min-width: 615px) {
+  .page_title__one {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+  }
+
+  .page_title_two {
+    position: absolute;
+    right: 200px;
+  }
+  header {
+    height: 40vh;
+  }
   .page_nav {
     position: absolute;
     top: 25px;
