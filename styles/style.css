@@ -21,7 +21,7 @@ header {
 .wrap {
   width: 80%;
   margin: auto;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .title {
@@ -151,6 +151,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .img_wrap {
@@ -164,4 +165,18 @@ header {
 .web_sites__title {
   color: white;
   margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 820px) {
+  .sites {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .img_wrap {
+    width: 45%;
+  }
+  .text_wrap {
+    width: 45%;
+  }
 }
