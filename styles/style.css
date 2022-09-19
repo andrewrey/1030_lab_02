@@ -112,6 +112,17 @@ header {
   gap: 50px;
 }
 
+@media (min-width: 800px) {
+  .courses ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .courses .courses_list__item {
+    width: 35%;
+    max-width: 340px;
+  }
+}
+
 .courses li {
   border: 1px solid black;
   display: flex;
