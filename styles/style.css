@@ -1,108 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-body {
-  min-height: 100vh;
+html {
   font-family: "Roboto", sans-serif;
 }
 
-/* Header Styling */
-
 header {
-  height: 30vh;
-  text-align: center;
+  height: 40vh;
+  background: linear-gradient(to left top, black, white);
   display: flex;
-  flex-direction: column;
-  gap: 35px 0;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to top left, black, white);
 }
 
-.page_title {
-  font-size: 3em;
-  color: white;
-}
-
-@media (min-width: 615px) {
-  .page_title__one {
-    position: absolute;
-    left: 50px;
-    top: 40px;
-  }
-
-  .page_title_two {
-    position: absolute;
-    right: 200px;
-  }
-  header {
-    height: 40vh;
-  }
-  .page_nav {
-    position: absolute;
-    top: 25px;
-    right: 50px;
-  }
-}
-
-.page_nav__nav_list {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  list-style: none;
-}
-
-.nav_list__item {
-  border: 1px solid black;
-  border-radius: 12px;
-  box-shadow: 2px 2px 3px rgb(0, 0, 0);
-  background: white;
-}
-
-.nav_list__item a {
-  color: black;
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  font-size: 1.2em;
-  text-transform: uppercase;
-}
-
-.nav_list__item a:hover,
-.nav_list__item a:active {
-  color: white;
-}
-
-.nav_list__item:hover {
-  background: rgb(119, 119, 119);
-}
-
-/* Page Wrap */
-
-.page_wrap {
+.wrap {
   width: 80%;
   margin: auto;
-  border: 2px solid red;
-  min-height: calc(100vh - 270px - 19px);
+  position: relative;
 }
 
-/* Main Page Styling */
-
-main ul {
-  list-style: none;
-}
-
-.intro {
-  padding-top: 25px;
-}
-
-/* Footer */
-
-footer {
+.title {
   text-align: center;
+  color: white;
+  font-size: 3.5rem;
+}
+
+@media (min-width: 780px) {
+  .title__one,
+  .title__two {
+    display: block;
+    position: relative;
+  }
+
+  .title__one {
+    top: -30px;
+    left: -30%;
+    font-size: 5rem;
+  }
+
+  .title__two {
+    bottom: -40px;
+    right: -30%;
+  }
 }
