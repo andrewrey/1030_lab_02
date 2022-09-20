@@ -1,0 +1,19 @@
+.content_wrap {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coffee_wrap {
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  background: url("../images/tabitha-turner-p2OkGvb6NRQ-unsplash.jpg");
+  background-size: cover;
+  background-position: 0 85%;
+  border-radius: 400px 400px 0 0;
+}
+
+main ul {
+  list-style: none;
+}
