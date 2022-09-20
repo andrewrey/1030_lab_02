@@ -15,6 +15,11 @@ header {
   z-index: 0;
 }
 
+header,
+nav {
+  min-width: 500px;
+}
+
 .title_card {
   background-color: rgba(133, 133, 133, 0.85);
   width: 80%;
