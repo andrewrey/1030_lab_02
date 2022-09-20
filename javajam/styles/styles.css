@@ -2,3 +2,35 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  background: url("../images/mike-kenneally-TD4DBagg2wE-unsplash.jpg") no-repeat
+    center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_card {
+  background-color: rgba(255, 255, 255, 0.35);
+  width: 80%;
+  padding: 20px 0;
+  text-align: center;
+}
+.page_title {
+  color: white;
+}
+
+.page_title__subtext {
+  color: white;
+  margin-top: 20px;
+}
+
+@media (min-width: 400px) {
+  .title_card {
+    width: auto;
+    padding: 50px;
+  }
+}
