@@ -1,7 +1,16 @@
+main {
+  padding-top: 50px;
+}
+
 .content_wrap {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+.coffee_title {
+  margin-bottom: 35px;
+  font-size: 2.5rem;
 }
 
 .coffee_wrap {
@@ -12,8 +21,24 @@
   background-size: cover;
   background-position: 0 85%;
   border-radius: 400px 400px 0 0;
+  margin-bottom: 50px;
+}
+
+.coffee_text {
+  width: 400px;
+  margin: 0 auto 50px;
+  font-size: 1.5rem;
 }
 
 main ul {
   list-style: none;
+}
+
+.coffee_wrap__bottom {
+  height: 200px;
+  width: 400px;
+  background: url("../images/ph-c-l-c-tFRcpmDX0o4-unsplash.jpg") 0 100%;
+  background-size: cover;
+  border-radius: 0 0 400px 400px;
+  margin: 50px auto 0;
 }
