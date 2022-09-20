@@ -41,6 +41,7 @@ header {
 
 .navigation__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -70,6 +71,9 @@ header {
 }
 
 @media (min-width: 700px) {
+  .navigation {
+    padding: 0 0;
+  }
   .navigation__list {
     position: absolute;
     top: 20px;
